@@ -1,0 +1,109 @@
+header{
+    background-color: black;
+}
+
+
+.text-white{
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    background-color: #ccc;
+    border-radius: 3px;
+    border:3px solid #fff;
+}
+
+.navbar-brand,
+h2{
+    font-family: Oswald, sans-serif;
+}
+
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-red{
+    color: red;
+}
+
+.nav-link.active{
+    background-color: white !important;
+}
+
+.nav-item .nav-link.active,
+.nav-link.active i{
+    color: red !important;
+}
+
+#lista-fundadores li a{
+    text-decoration: none;
+    color: black;
+}
+
+#lista-fundadores li a:hover{
+    text-decoration: underline;
+}
+
+#nossos-servicos{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#menu-servicos button{
+    color: black;
+}
+
+#menu-servicos.active button{
+    background-color: rgba(0, 0, 0) !important;
+    color: red;
+}
+
+
+.col-3 {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.col-3 img {
+width: 75%; 
+margin-bottom: 10px;
+}
+
+
+.col-3 h5 {
+text-align: center;
+}
+
+#menu-servicos button {
+    font-size: 24px;
+    margin: 5px 0;
+    border: 3px solid gray;
+    background-color: black;
+    color: white;
+}
+
+#menu-servicos button.active{
+    background-color: red !important;
+}
+
+.tab-content {
+    transition: height 0.5s ease;
+}
+
+#fale-button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.bi{
+    color: red;
+}
+
+footer{
+    background-color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
